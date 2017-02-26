@@ -5,7 +5,7 @@ import FilterNote from '../FilterNote';
 import ListNote from '../ListNote';
 import FormAddNote from '../FormAddNote';
 
-class App extends Component {
+class Kernel extends Component {
   render() {
     return (
       <div className="app">
@@ -22,4 +22,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Kernel;
