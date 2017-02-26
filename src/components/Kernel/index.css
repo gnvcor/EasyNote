@@ -1,0 +1,16 @@
+.app {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.app__title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.app__subTitle {
+    font-weight: 700;
+    margin-bottom: 8px;
+}

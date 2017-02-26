@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  line-height: normal;
+  resize: none;
+  user-select: text;
+  border-radius: 0;
+  box-shadow: none;
+  background-image: none;
+  overflow: auto;
+  vertical-align: top;
+}
+
+.hidden {
+  display: none;
+}
+
+.inputStyle {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  padding: 0 10px;
+  -webkit-appearance: none;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.textareaStyle {
+  width: 100% !important;
+  height: 60px;
+  font-size: 14px;
+  padding: 10px;
+  -webkit-appearance: none;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,63 @@
+.list {
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list__item {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.list__item:hover {
+    background-color: lightgray;
+}
+
+.list__item:last-child {
+    border-bottom: none;
+}
+
+.list__title {
+    font-size: 20px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.list__description {
+    line-height: 16px;
+}
+
+.list__buttons {
+    margin-top: 10px;
+}
+
+.list__button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    -webkit-appearance: none;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.list__button--edit {
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+.list__button--delete {
+    border: 1px solid red;
+    background-color: red;
+}
+
+.list__button--save {
+    border: 1px solid green;
+    background-color: green;
+}
+
+.list__empty {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
